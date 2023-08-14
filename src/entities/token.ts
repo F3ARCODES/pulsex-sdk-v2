@@ -71,11 +71,5 @@ export const WETH = {
     'WBNB',
     'Wrapped BNB'
   ),
-  [ChainId.PLSTESTNET]: new Token(
-    ChainId.PLSTESTNET,
-    '0x70499adebb11efd915e3b69e700c331778628707',
-    18,
-    'WPLS',
-    'Wrapped PLS'
-  ),
+  [ChainId.PLS]: new Token(ChainId.PLS, '0xa1077a294dde1b09bb078844df40758a5d0f9a27', 18, 'WPLS', 'Wrapped PLS')
 }
